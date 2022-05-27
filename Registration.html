@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Register your profile.</h1>
+    <hr> 
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/C5nNUPNvWAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <hr>
+    <form action = "/action.php">
+        <label for="id1">
+            <p>Enter your name :  </p>
+            <input type="text" placeholder="Enter your name "id="id1">
+        </label>
+        <br>
+        <label for="id2">
+            <p>Enter your Email Address :  </p>
+            <input type="text" placeholder="Enter your Email id "id="id2">
+        </label>
+        <br>
+        <label for="id3">
+            <p>Enter your password :  </p>
+            <input type="password" placeholder="Enter your password "id="id3">
+        </label>
+        <br>
+        <label for="id11">
+            <p>Enter your Address :  </p>
+            <textarea name="Address" id="id11" placeholder="please give your Address"rows="5" >
+                Enter Address....
+            </textarea>
+        </label>
+        <br>
+        <p>Enter your City :  </p>
+        <select name="city" id="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Kanpur">Kanpur</option>
+            <option value="Gantok">Gantok</option>
+            <option value="Rampo">Rampo</option>
+            <option value="Moradabad">Moradabad</option>
+        </select>
+        <br>
+        <p>Your Relation Status :  </p>
+        <br>
+        <label for="id4">
+            <input type="radio" value="New Customer" name="class" id="id4">New Customer
+        </label>
+        <label for="id5"></label>
+            <input type="radio" value="Old Customer" name="class" id="id5">Old Customer
+        </label>
+        
+
+        <p> Type of service you need : </p>
+        <input type="checkbox" value="Maths" name="class" id="id6">Brown Box
+        <br>
+        <input type="checkbox" value="Physic" name="class" id="id7">Printing Box
+        <br>
+        <input type="checkbox" value="English" name="class" id="id8">Die Box
+        <br>
+        <input type="checkbox" value="Hindi" name="class" id="id9">White Box
+        <br>
+        <input type="checkbox" value="Hindi" name="class" id="id10">Corrugate sheet
+        <br>
+        <p>Enter your Feedback :  </p>
+        <textarea name="feedback" id="id12" placeholder="please give your feedback" rows="5" >
+            give your feedback
+        </textarea>
+        
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
